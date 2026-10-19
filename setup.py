@@ -24,7 +24,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'time_printer = m1k_ros_26.rime_printer:main'
+            'time_printer = m1k_ros_26.rime_printer:main',
+            'talker = m1k_ros_26.talker:main',
+            'listener = m1k_ros_26.listener:main',
+            'even_number_publisher = m1k_ros_26.even_number_publisher:main'
         ],
     },
 )
