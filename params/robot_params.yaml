@@ -1,0 +1,5 @@
+even_number_publisher:
+  ros__parameters:
+    publish_rate: 8.0
+    max_number: 80
+    topic_name: even_numbers
